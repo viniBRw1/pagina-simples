@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Oswald", sans-serif;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	height: 20vh;
+	background-color: #485460;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	background-color: #485460;
+}
+footer ul{
+	list-style: none;
+}
+footer li{
+    font-size: 18px;
+    gap: 10px;
+    color: white;
+}
+footer i{
+	margin-right: 5px;
+	color: black;
+}
+footer p{
+	font-size: 18px;
+	color: white;
+}
+footer h2{
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.menu-options{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+.menu-options i{
+	transition: font-size 0.30s, color 0.50s;
+}
+.menu-options i:hover{
+	color: white;
+	font-size: 25px;
+}
+.menu{
+	width: fit-content;
+}
+.nav-bar input{
+	border: none;
+	background-color: grey;
+	width: 30vw;
+	transition: padding 0.30s , border-bottom 1s;
+}
+.nav-bar input:hover{
+	padding: 3px;
+	border-bottom: red solid 1px;
+}
+.nav-bar span{
+	background-color: grey;
+	border-radius: 10px;
+	padding: 5px;
+	font-size: 20px;
+}
+.logo{
+	margin-left: 10px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+.card-left{
+	background-color: #ff3f34;
+	padding: 15px 0 ;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.card-left h2{
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #f5f6fa;
+	border-bottom: solid 2px black;
+	width: fit-content;
+}
+.card-left p{
+	margin-left: 5px;
+	font-size: 20px;
+}
+.card-center h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	border-bottom: solid 2px #f5f6fa;
+	width: fit-content;	
+}
+.card-center p{
+	margin-left: 10px;
+	font-size: 20px;
+	width: 80vw;
+}
+.card-center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ff5e57;
+	padding: 20px 0 ;
+}
+.two-card{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px 20px 10px;
+	background-color: #ff5e57;
+}
+.two-card p{
+	width: 40vw;
+	font-size: 20px;
+}
+.two-card h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;	
+	border-bottom: solid 2px #f5f6fa;
+}
+.card-side{
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	background-color: #ff5e57;
+}
+.card-side i{
+	font-size: 150px;
+}
+.card-side p{
+	width: 40vw;
+	font-size: 20px;
+}
+.card-side h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;	
+	border-bottom: solid 2px #f5f6fa;
+}
+.card-side-icon{
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.card-side-txt{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.call{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ff3f34;
+	padding: 20px 0 ;
+}
+.call h2{
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #f5f6fa;
+	border-bottom: solid 2px black;
+	width: fit-content;
+}
+.call p{
+	margin-left: 10px;
+	font-size: 20px;
+	width: 80vw;
+}
+.call-card-side{
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	background-color: #ff3f34;
+}
+.call-card-side i{
+	font-size: 150px;
+}
+.call-card-side p{
+	width: 40vw;
+	font-size: 20px;
+}
+.call-card-side h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;	
+	border-bottom: solid 2px #f5f6fa;
+}
+.comunity{
+	display: flex;
+	flex-direction: column;
+	background-color: #ff3f34;
+}
+.comunity h2{
+	text-transform: uppercase;
+	font-size: 25px;
+	border-bottom: solid 2px #f5f6fa;
+	width: fit-content;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+.comunity ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+.comunity i{
+	font-size: 45px;
+}
+.comunity a{
+	display: flex;
+	height: fit-content;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	text-decoration: none;
+	transition: color 0.50s, font-size 0.30s;
+}
+.comunity a:hover{
+	font-size: 55;
+	color: white;
+}
+.comunity span{
+	text-transform: uppercase;
+}
+.comunity-link{
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
